@@ -10,3 +10,7 @@ Run this example using:
 cd working/scripts
 terraform apply
 ```
+
+terraform plan -out=tfplan
+terraform show -json tfplan > tfplan.json
+terraform apply tfplan
