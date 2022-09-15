@@ -3,6 +3,7 @@
 This example uses Terraform to create:
 * a resource group in Azure.
 * a private container registery in Azure.
+* a Kubernetes cluster in Azure.
 
 Run this example using:
 
